@@ -1,4 +1,4 @@
-package com.java.oop.Abstraction;
+package com.java.oops.Abstraction;
 
 abstract class MotorBike {
 	  abstract void brake();
