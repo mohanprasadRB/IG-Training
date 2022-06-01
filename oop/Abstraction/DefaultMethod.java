@@ -1,4 +1,4 @@
-package com.java.oop.Interface;
+package com.java.oop.Abstraction;
 
 interface Draw{  
 void draw();  
