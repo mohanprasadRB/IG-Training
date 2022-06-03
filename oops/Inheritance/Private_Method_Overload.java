@@ -10,7 +10,7 @@ class super5 {
 		System.out.println("Public Method oload2");
 	}
 }
-public class PrivateMethodOverload extends super5 {
+public class Private_Method_Overload extends super5 {
 	
 	
 	private String oload()
@@ -30,7 +30,7 @@ public class PrivateMethodOverload extends super5 {
 	}
 	
 	public static void main(String[] args) {
-		PrivateMethodOverload obj = new PrivateMethodOverload();
+		Private_Method_Overload obj = new Private_Method_Overload();
 		obj.oload();
 		obj.oload(10);
 	}
