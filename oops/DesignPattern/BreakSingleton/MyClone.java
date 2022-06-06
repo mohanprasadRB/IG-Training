@@ -7,5 +7,6 @@ public class MyClone implements Cloneable {
 		// TODO Auto-generated method stub
 		return super.clone();
 	}
+ 
 
 }
