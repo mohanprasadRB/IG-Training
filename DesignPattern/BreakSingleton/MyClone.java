@@ -1,4 +1,4 @@
-package com.java.oops.DesignPattern.BreakSingleton;
+package com.java.DesignPattern.BreakSingleton;
 
 public class MyClone implements Cloneable {
 	

@@ -1,4 +1,4 @@
-package com.java.oops.DesignPattern.Factory;
+package com.java.DesignPattern.Factory;
 
 import java.io.BufferedReader;
 import java.io.IOException;

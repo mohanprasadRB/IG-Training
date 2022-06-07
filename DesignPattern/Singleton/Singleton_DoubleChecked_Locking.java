@@ -1,4 +1,4 @@
-package com.java.oops.DesignPattern.Singleton;
+package com.java.DesignPattern.Singleton;
 
 class SingletonDemo2 {
 	

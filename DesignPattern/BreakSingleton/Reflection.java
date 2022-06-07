@@ -1,4 +1,4 @@
-package com.java.oops.DesignPattern.BreakSingleton;
+package com.java.DesignPattern.BreakSingleton;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
