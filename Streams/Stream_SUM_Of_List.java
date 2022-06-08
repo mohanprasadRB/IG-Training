@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 
-public class Stream_MAX_In_List {
+public class Stream_SUM_Of_List {
 	
 	public static void main(String[] args) {
 		
