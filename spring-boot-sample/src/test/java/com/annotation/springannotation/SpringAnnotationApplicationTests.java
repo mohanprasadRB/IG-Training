@@ -1,10 +1,10 @@
-package com.example.demo;
+package com.annotation.springannotation;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class SpringAnnotationApplicationTests {
 
 	@Test
 	void contextLoads() {
