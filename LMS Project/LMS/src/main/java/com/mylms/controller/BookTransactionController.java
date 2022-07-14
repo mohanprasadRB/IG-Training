@@ -22,7 +22,9 @@ public class BookTransactionController {
 	
 	@PostMapping("/bookissue/{bookId}/{userId}/{libId}")
 	public BookTransaction createBookIssue(@RequestBody BookTransaction bookIssue,
-				@PathVariable("bookId")Long userId, @PathVariable("userId")Long bookId, @PathVariable("libId")Long libId) {
+				@PathVariable("bookId")Long bookId,  
+				@PathVariable("userId")Long userId, 
+				@PathVariable("libId")Long libId) {
 		return bookTransactionService.createBookIssue(bookId,userId, libId, bookIssue);
 	}
 	

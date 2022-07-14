@@ -10,6 +10,11 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import org.hibernate.envers.Audited;
+import org.hibernate.envers.RelationTargetAuditMode;
+
+import org.hibernate.envers.Audited;
+
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 import lombok.AllArgsConstructor;
@@ -23,6 +28,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @Entity
 @Table
+@Audited(targetAuditMode = RelationTargetAuditMode.NOT_AUDITED)
 public class BookTransaction {
 
 	@Id

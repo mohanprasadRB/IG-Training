@@ -2,6 +2,7 @@ package com.mylms.test.controller;
 
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
@@ -25,6 +26,7 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import com.mylms.controller.BookTransactionController;
 import com.mylms.entity.Book;
 import com.mylms.entity.BookTransaction;
+import com.mylms.entity.User;
 import com.mylms.repository.BookTransactionRepository;
 import com.mylms.service.BookTransactionService;
 
@@ -82,5 +84,25 @@ public class BookTransactionControllerTest {
  		 .andDo(print());
 		
 	}
+	
+	
+	/*
+	 * @Test public void test_createBookIssue() throws Exception { BookTransaction
+	 * bookTransaction = BookTransaction.builder().transactionId(10).build();
+	 * 
+	 * User user = User.builder().build(); Book book = Book.builder().build();
+	 * //bookTransaction.setIssuedBy(libId);
+	 * 
+	 * when(bookTransactionService.createBookIssue (user.getUserId(),
+	 * user.getUserId(), book.getBookId(), bookTransaction))
+	 * .thenReturn(bookTransaction);
+	 * this.mockMvc.perform(post("/bookissue/{bid}/{uid}/{lid}",user.getUserId(),
+	 * user.getUserId(), book.getBookId())) .andExpect(status().isOk())
+	 * .andExpect(MockMvcResultMatchers.jsonPath(".transactionId").value(10))
+	 * .andDo(print());
+	 * 
+	 * }
+	 */
+	 
 	
 }

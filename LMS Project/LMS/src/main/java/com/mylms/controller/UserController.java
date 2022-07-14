@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.mylms.entity.User;
+import com.mylms.exception.ApiRequestException;
 import com.mylms.service.UserService;
 
 
@@ -37,6 +38,7 @@ public class UserController {
 	
 	@GetMapping("/users/{userId}")
 	public Optional<User> getUserById(@PathVariable("userId") Long userId){
+		
 		return userService.getUserById(userId);
 	}
 	
